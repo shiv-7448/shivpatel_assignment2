@@ -1,0 +1,87 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #3f51b5; /* Indigo */
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+nav {
+    background-color: #4caf50; /* Green */
+    color: white;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover,
+nav a.active {
+    background-color: #2e3b4e; /* Darker Indigo */
+}
+
+main {
+    padding: 1em;
+}
+
+.content-section {
+    background-color: #ffffff; /* White */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    color: #333333; /* Dark Gray */
+}
+.dog-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#backButton {
+    display: block;
+    margin: 20px auto;
+    background-color: #e91e63; /* Pink */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#backButton:hover {
+    background-color: #d81b60; /* Darker Pink */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
